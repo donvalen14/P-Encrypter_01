@@ -10,7 +10,7 @@ window.title("Encrypter")
 
 #label
 inf = Label(window, text = ">>Introdusca el texto que desea encriptar<<")
-inf.place(x=170,y=10)
+inf.place(x=83,y=10)
 
 #Entry major
 intr = Entry(window, bg="white",fg="black")
@@ -79,7 +79,7 @@ intrD.place(x=83,y=240,width=500)
 
 def clickD():
     textD = Label(window,text=f'El texto "{intrD.get()}" fue desencriptado exitosamente', fg="lime")
-    textD.place(x=160,y=320)
+    textD.place(x=83,y=320)
 
     intrDe = Entry(window, bg="white",fg="black")
     intrDe.place(x=83,y=350,width=500)
